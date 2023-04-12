@@ -1,0 +1,117 @@
+/* footer */
+.footerSection {
+  padding: 60px 50px 0 50px;
+  height: 80vh;
+  margin: 0;
+}
+.footerSection .topFooter {
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+.footerSection .topFooter .rightFooter {
+  margin-top: 20px;
+  width: 35%;
+}
+.footerSection .topFooter .mainLogo {
+  margin-bottom: 30px;
+  width: 80px;
+}
+.footerSection .topFooter p {
+  margin-bottom: 30px;
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #565656;
+}
+.footerSection .topFooter .logo {
+  display: flex;
+}
+.footerSection .topFooter .logo a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+.footerSection .topFooter .logo a img {
+  text-decoration: none;
+  width: 30px;
+}
+.footerSection .leftFooter {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  height: 100%;
+  align-items: top;
+}
+.footerSection .leftFooter .innerLeftDiv h1 {
+  font-family: AvertaDemo;
+  font-weight: 900;
+  margin-bottom: 13px;
+  font-size: 20px;
+  line-height: 49px;
+  color: #000000;
+}
+.footerSection .leftFooter .innerLeftDiv p,
+.footerSection .leftFooter .innerLeftDiv a {
+  font-family: AvertaDemo;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 0;
+  margin-bottom: 10px;
+  color: #000000;
+}
+.footerSection .bottomFooter {
+  display: flex;
+  justify-content: center;
+  text-align: bottom;
+  height: 20%;
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  color: #a4a4a4;
+}
+
+/* footer */
+@media (max-width: 800px) {
+  /* footer */
+  .footerSection .topFooter .rightFooter {
+    width: 100%;
+    top: 100%;
+  }
+  .footerSection .topFooter {
+    flex-direction: column;
+  }
+  .footerSection .leftFooter {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .footerSection .leftFooter .innerLeftDiv h1 {
+    font-size: 15px;
+  }
+  .footerSection .bottomFooter {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: bottom;
+    height: 20%;
+    font-family: AvertaDemo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+
+    color: #a4a4a4;
+  }
+
+  /* footer */
+}

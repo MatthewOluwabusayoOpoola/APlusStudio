@@ -1,0 +1,25 @@
+@font-face {
+  font-family: AvertaDemo;
+  src: url(./asset/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+/* hr */
+.horizontalLine {
+  border: 1px solid #e4e4e4;
+  margin: 0 60px 20px 60px;
+}
+/* hr */
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}

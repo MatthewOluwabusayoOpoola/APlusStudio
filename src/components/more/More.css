@@ -1,0 +1,143 @@
+/* MoreSection */
+.MoreSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 50px;
+  margin: auto;
+  height: 100vh;
+}
+.MoreSection .heading {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  width: 80%;
+  height: 30%;
+}
+.MoreSection .heading h1 {
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+.MoreSection .heading p {
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #757575;
+}
+.MoreSection .body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  overflow: hidden;
+  height: 60%;
+}
+.MoreSection .body .person {
+  position: relative;
+  width: 30%;
+  height: 100%;
+}
+.MoreSection .body .person .person {
+  width: 100%;
+  height: 100%;
+}
+.MoreSection .body .person .bg-dot {
+  width: 200px;
+  right: 0;
+  position: absolute;
+}
+.MoreSection .body .person .bg-ring {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+}
+
+.MoreSection .body .feedback {
+  width: 30%;
+  height: 100%;
+}
+.MoreSection .body h1 {
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 49px;
+  color: #000000;
+}
+.MoreSection .body p {
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.MoreSection .body .slider {
+  display: flex;
+}
+.MoreSection .body .slider span {
+  margin-right: 20px;
+  border: 8px solid #e7f0fc;
+  border-radius: 8px;
+}
+
+.MoreSection .body .slider .active {
+  border-color: #2639ed;
+}
+.MoreSection .body .people {
+  height: 100%;
+  width: 30%;
+}
+.MoreSection .body .people .bg-circle {
+  position: absolute;
+  width: 100px;
+}
+.MoreSection .body .peopleImg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* MoreSection */
+@media (max-width: 800px) {
+  /* MoreSection */
+  .MoreSection {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  .MoreSection .body {
+    flex-direction: column;
+  }
+  .MoreSection .body .person {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .MoreSection .body .person .bg-ring {
+    position: absolute;
+    left: 10px;
+    bottom: 60px;
+  }
+
+  .MoreSection .body .feedback {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+  }
+  .MoreSection .body .people {
+    height: 100%;
+    width: 80%;
+  }
+
+  /* MoreSection */
+}

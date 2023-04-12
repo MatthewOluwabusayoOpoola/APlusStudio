@@ -1,0 +1,208 @@
+/* About Section */
+.AboutSection {
+  padding: 30px 50px;
+  min-height: 100vh;
+  position: relative;
+  width: 100wv;
+}
+
+.AboutSection .bg-rectangle {
+  top: 20%;
+  left: 50px;
+  position: absolute;
+  width: 150px;
+  z-index: 0;
+}
+.AboutSection .bg-dot {
+  bottom: 1.25rem;
+  position: absolute;
+  z-index: 0;
+}
+.AboutSection .bg-bigrec {
+  top: 5%;
+  right: 0;
+  position: absolute;
+  z-index: 0;
+  height: 80%;
+  width: 65%;
+}
+.AboutSection .bg-ring {
+  bottom: 15px;
+  right: 0;
+  position: absolute;
+  z-index: 0;
+}
+.AboutSection .sectionDiv {
+  margin: 0 100px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.AboutSection .sectionDiv .text {
+  width: 30%;
+}
+.AboutSection .sectionDiv .text h1 {
+  font-family: AvertaDemo;
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 50px;
+  color: #000000;
+}
+.AboutSection .sectionDiv .text {
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #565656;
+}
+/* .AboutSection .sectionDiv .cards {
+  width: 20%;
+  margin-left: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.AboutSection .sectionDiv .cards .card {
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+  width: 250px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.AboutSection .sectionDiv .cards .card .cardImg {
+  background: #2639ed;
+  width: 5rem;
+  height: 5rem;
+  padding: 10px;
+}
+.cardImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.AboutSection .sectionDiv .cards .card h1 {
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.AboutSection .sectionDiv .cards .card p {
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  text-align: center;
+  color: #757575;
+  margin-top: 20px;
+} */
+/* About Section */
+
+@media (max-width: 800px) {
+  /* About Section */
+  .AboutSection {
+    margin-top: 90px;
+    padding: 0;
+    height: fit-content;
+    position: relative;
+    width: 100vh;
+  }
+
+  .AboutSection .bg-rectangle {
+    top: 20%;
+    left: 50px;
+    position: absolute;
+    width: 150px;
+    z-index: 0;
+    display: none;
+  }
+  .AboutSection .bg-dot {
+    bottom: 1.25rem;
+    position: absolute;
+    z-index: 0;
+    display: none;
+  }
+  .AboutSection .bg-bigrec {
+    top: 5%;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+    height: 80%;
+    width: 65%;
+    display: none;
+  }
+  .AboutSection .bg-ring {
+    bottom: 15px;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+    display: none;
+  }
+  .AboutSection .sectionDiv {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  .AboutSection .sectionDiv .text {
+    width: 100%;
+  }
+  .AboutSection .sectionDiv .text h1 {
+    font-family: AvertaDemo;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 50px;
+    color: #000000;
+  }
+  .AboutSection .sectionDiv .text {
+    font-family: AvertaDemo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+  }
+  /* .AboutSection .sectionDiv .cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .AboutSection .sectionDiv .cards .card {
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  } */
+
+  /* About Section */
+}

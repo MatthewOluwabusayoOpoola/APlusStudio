@@ -1,0 +1,176 @@
+/* videoSection */
+.videoSection {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.videoSection .vidDiv {
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+
+.videoSection .vidDiv button {
+  cursor: pointer;
+}
+.videoSection .vidDiv button:hover {
+  scale: #2639ed;
+}
+.videoSection .vidDiv .playIcon {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  z-index: 2;
+}
+.videoSection .vidDiv .bg-circle {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 8px;
+  right: -3px;
+  z-index: 0;
+}
+.videoSection .vidDiv img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.videoSection .text {
+  width: 45%;
+  position: relative;
+  height: 100%;
+}
+.videoSection .text .bg-rectangle {
+  top: 25%;
+  left: -10px;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+}
+
+.videoSection .text .textText {
+  top: 30%;
+  left: 40px;
+  position: absolute;
+  z-index: 2;
+}
+.videoSection .text h1 {
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 49px;
+  z-index: 2;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.videoSection .text p {
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #565656;
+}
+
+/* videoSection */
+
+@media (max-width: 800px) {
+  /* videoSection */
+  .videoSection {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-bottom: 300px;
+  }
+
+  .videoSection .vidDiv {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    order: 2;
+  }
+
+  .videoSection .vidDiv button {
+    cursor: pointer;
+  }
+  .videoSection .vidDiv button:hover {
+    scale: #2639ed;
+  }
+  .videoSection .vidDiv .playIcon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 43%;
+    top: 70%;
+    z-index: 2;
+  }
+  .videoSection .vidDiv .bg-circle {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 8px;
+    right: -3px;
+    z-index: 0;
+  }
+  .videoSection .vidDiv img {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .videoSection .text {
+    width: 100%;
+    position: relative;
+    height: 120%;
+    order: 1;
+    margin-bottom: 30px;
+  }
+  .videoSection .text .bg-rectangle {
+    top: 25%;
+    left: -10px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+  }
+
+  .videoSection .text .textText {
+    top: 0;
+    left: 40px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    padding-right: 60px;
+  }
+  .videoSection .text h1 {
+    font-family: AvertaDemo;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 49px;
+    z-index: 2;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .videoSection .text p {
+    font-family: AvertaDemo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+  }
+
+  /* videoSection */
+}

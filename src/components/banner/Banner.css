@@ -1,0 +1,168 @@
+/* banner */
+.BannerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 60vh;
+  height: 80vh;
+  margin-bottom: 60px;
+  padding: 0 0 0 50px;
+  text-align: left;
+}
+
+.BannerSection .img {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.BannerSection .bg-ellipse {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: -50px;
+  height: 100px;
+  width: 100px;
+}
+.BannerSection .bg-Rectangle {
+  z-index: 1;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  bottom: -60px;
+  right: 60px;
+}
+
+.BannerSection img {
+  z-index: 2;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  object-fit: fill;
+}
+
+.BannerSection .text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: space-around;
+}
+.BannerSection .text .bg-dotted {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  bottom: 50px;
+  z-index: 0;
+}
+
+.BannerSection h1 {
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.BannerSection p {
+  font-family: AvertaDemo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #565656;
+}
+
+.BannerSection .Btn {
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: AvertaDemo;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 20px 40px;
+  background: #0000ff;
+  border: none;
+  border-radius: 100px;
+  z-index: 1;
+  width: 250px;
+}
+
+.BannerSection .Btn:hover {
+  background: #787b9b;
+}
+
+/* banner */
+
+@media (max-width: 800px) {
+  .BannerSection {
+    margin: 0 10px;
+    height: fit-content;
+    position: relative;
+  }
+
+  .BannerSection .bg-ellipse {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    height: 50px;
+    width: 50px;
+    display: none;
+  }
+  .BannerSection .bg-dotted {
+    display: none;
+  }
+  .BannerSection .bg-Rectangle {
+    z-index: 1;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: -10px;
+    right: 100px;
+    display: none;
+  }
+
+  .BannerSection img {
+    order: 1;
+    display: block;
+    position: static;
+    /* margin: auto; */
+    margin-left: -80%;
+    height: 300px;
+    width: 250%;
+    object-fit: cover;
+    margin-bottom: 30px;
+  }
+
+  .BannerSection .text {
+    margin: 0 100px;
+    width: 100%;
+    order: 2;
+  }
+
+  .BannerSection p {
+    margin-top: 30px;
+    font-family: AvertaDemo;
+    font-size: normal;
+    color: #565656;
+  }
+
+  .BannerSection .Btn {
+    margin-top: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: AvertaDemo;
+    color: #ffffff;
+    padding: 20px 40px;
+    background: #0000ff;
+    border: none;
+    border-radius: 100px;
+  }
+  section {
+    flex-direction: column;
+  }
+}
