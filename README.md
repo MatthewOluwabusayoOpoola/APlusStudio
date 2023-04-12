@@ -2,7 +2,7 @@
 
 Landing Page for A+ Studio
 
-![plot](../../readme/logo.png)
+![plot](../../tree/main/readme/logo.png)
 
 # Getting Started with Create React App
 
